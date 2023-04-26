@@ -1,6 +1,6 @@
 const http=require('http')
 
-const serv=http.createServer((res,rej)=>{
+const serv=http.createServer((req,res)=>{
 
     console.log("Anand");
     
