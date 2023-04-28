@@ -46,6 +46,12 @@ const reqhandler = (req, res) => {
    
 
 }
+// module.exports=reqhandler
 
-module.exports=reqhandler;
+// module.exports={
+//     handler:reqhandler,key:"some text"
+// }
+
+module.exports.handler=reqhandler;
+module.exports.sometext="sometext";
 

@@ -1,7 +1,9 @@
 const http = require('http')
 const rt = require('./route')
 
-const serv=http.createServer(rt)
+// console.log(rt.key)
+console.log(rt.sometext)
+const serv=http.createServer(rt.handler)
 
 serv.listen(4000);
 console.log("Server Startet....")
