@@ -1,5 +1,5 @@
 const http = require('http')
-const rt = require('./route')
+const rt = require('./routes')
 
 // console.log(rt.key)
 console.log(rt.sometext)
